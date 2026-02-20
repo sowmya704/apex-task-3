@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz + Dictionary App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Interactive Quiz + Dictionary API</h1>
+
+    <!-- QUIZ SECTION -->
+    <div class="section">
+        <h2>💻 Coding Quiz</h2>
+        <p id="question"></p>
+        <div id="options"></div>
+        <button id="nextBtn">Next</button>
+        <p id="result"></p>
+        <p class="score">Score: <span id="score">0</span></p>
+    </div>
+
+    <!-- DICTIONARY SECTION -->
+    <div class="section">
+        <h2>📘 Dictionary</h2>
+        <div class="search-box">
+            <input type="text" id="wordInput" placeholder="Enter a word...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div id="dictionaryResult"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
